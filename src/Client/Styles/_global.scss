@@ -21,13 +21,14 @@ ul {
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 2px;
     background-color: $footer_color_black;
     color: $font_color_grey;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     font-family: $appbar_title_font_family;
-    font-size: $font_size_sm;
+    font-size: $font_size_md;
     font-weight: $footer_wieght;
     align-items: center;
     border-color: $color_black;
@@ -44,16 +45,7 @@ ul {
             .footer-content {
                 font-family: $text_font_family;
                 vertical-align: middle;
-            }
-
-            a{
-                padding-top: 5px;
-                svg {
-                    width: 22px;
-                    height: 20px;
-                    padding-left: 10px;
-                }
-            }            
+            }           
         }
 
         .footer-content-row {
