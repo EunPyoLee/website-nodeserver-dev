@@ -1,5 +1,7 @@
 import * as http from 'http';
-export function route(handler: {[key: string]: (response: http.ServerResponse) => void}, pathname: string, response: http.ServerResponse): void{
+import {IRequestHandler}  from './Interfaces/IRequestHandler';
+
+export function route(handler: IRequestHandler, pathname: string, response: http.ServerResponse): void{
     console.log("About to route a request for " + pathname);
     if (typeof handler[pathname] === 'function'){
         handler[pathname](response);
