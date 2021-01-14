@@ -30,7 +30,7 @@ const constants = {
             profileImgSrc: '/Media/AboutMe/profile.jpg',
             bodyContents: [
                'Summer Software Engineer Intern at Lingco Language Labs (2020)',
-               ' Hacker Fellows 2020 Intern (2020)',
+               'Hacker Fellows 2020 Intern (2020)',
                'Ambassador at Edenchain (2018-2019)',
                'Summer Business Development Team Intern at Edenchain (2018)',
                'Sergeant Chief Auxiliary Police at Republic of Korea Auxiliary Police(2016-2018)',
